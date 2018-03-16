@@ -9,15 +9,16 @@ import { HEROES } from '../mock-heroes';
 })
 export class HeroesComponent implements OnInit {
 
- /* hero = 'Nidhi';
+  /*hero = 'Nidhi';*/
   
    hero: Hero = {
     id: 1,
     name: 'Nidhi'
   };
-  */
-  heroes = HEROES;
-  selectedHero: Hero;
+  
+ 
+ heroes = HEROES;
+   selectedHero: Hero;
   
   constructor() { }
 
